@@ -1,0 +1,163 @@
+:root {
+  --tw-bg-opacity: 1;
+  /* Define the custom property at the root level */
+}
+
+.App {
+  text-align: center;
+}
+
+.background-image {
+  background-image: url('https://replay.software/sleeve/images/HeroDark@2x.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  /* Adjust as needed */
+  width: 100%;
+  /* Adjust as needed */
+}
+
+.image-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+  /* Add padding as needed */
+}
+
+.image-card-content {
+  text-align: center;
+  margin: 0 10px;
+  /* Add margin between cards */
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.height-360px {
+  height: 360px;
+}
+
+
+.gradient-from-blue {
+  --tw-gradient-from: rgba(121, 220, 233, 0.1);
+  --tw-gradient-to: rgba(121, 220, 233, 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.textcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  /* Space between the cards */
+}
+
+.textcardcontainer {
+  flex: 1;
+  max-width: 48%;
+  /* To ensure the two cards take equal space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textcard {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.textcard.change-it-up {
+  background-image: url('https://replay.software/sleeve/images/ThemeIcon@2x.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  /* Adjust the size as needed */
+}
+
+.musicimg,
+.musicimg1,
+.shareable-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: hsla(0, 0%, 100%, 0.9);
+  background-color: rgb(17, 17, 17, var(--tw-bg-opacity));
+  /* Using the custom property */
+}
+
+.font {
+  color: #fff;
+
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.tracking-tight {
+  letter-spacing: -.025em;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
