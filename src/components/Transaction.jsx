@@ -20,7 +20,7 @@ function Transactions() {
     }, []);
 
     return (
-        <div style={{ minHeight: '100vh', backgroundColor: 'rgba(17, 17, 17, var(--tw-bg-opacity))' }}>
+        <div >
             <div className="transaction-container">
                 {transactions.length === 0 && <h4 className='mt-4' >Currently No transactions Available</h4>}
                 <div className='row'>
