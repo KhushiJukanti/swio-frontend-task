@@ -32,7 +32,7 @@ function Payment() {
         setFormError(formError);
         if (Object.keys(formError).length === 0) {
             try {
-                const response = await fetch('http://localhost:7000/api/payments/submit', {
+                const response = await fetch('https://swio-backend-pu9q.onrender.com/api/payments/submit', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
